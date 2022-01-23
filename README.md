@@ -18,8 +18,7 @@ Just type `iTermA` on alfred and it will:
  - List the avaliable window arrangements
  - Restore the selected window arrangement
 
-![SelectWorkflow](images/SelectWorkflow.png)
-![ListAvaliableArrangement](images/ListAvaliableArrangement.png)
+![RestoreItermArrangement.gif](images/RestoreItermArrangement.gif)
 
 ## Download
 Check the [releases page](https://github.com/gohoyer/Alfred-Restore-Iterm-Arrangement/releases) to download it.
