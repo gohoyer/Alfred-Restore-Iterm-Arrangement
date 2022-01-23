@@ -63,50 +63,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
+				<key>paths</key>
+				<array>
+					<string>/Applications/iTerm.app</string>
+				</array>
+				<key>toggle</key>
 				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Getting arrangements</string>
-				<key>script</key>
-				<string># Uses the iterm2 python to avoid conflicts like (alfred workflow importerror: cannot import name '_objc')
-~/Library/ApplicationSupport/iTerm2/Scripts/get_window_arrangements/iterm2env/versions/3.8.6/bin/python3 src/get_window_arrangements.py</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string>get_iterm_arrangements.sh</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Loading avaliable arrangements</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<string>2BF5CCAC-0E83-43E5-881B-B477D2AF1742</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -157,19 +126,50 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/iTerm.app</string>
-				</array>
-				<key>toggle</key>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Getting arrangements</string>
+				<key>script</key>
+				<string># Uses the iterm2 python to avoid conflicts like (alfred workflow importerror: cannot import name '_objc')
+~/Library/ApplicationSupport/iTerm2/Scripts/get_window_arrangements/iterm2env/versions/3.8.6/bin/python3 src/get_window_arrangements.py</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>get_iterm_arrangements.sh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Loading avaliable arrangements</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>2BF5CCAC-0E83-43E5-881B-B477D2AF1742</string>
+			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -196,6 +196,8 @@ Just type `iTermA` on alfred and it will:
 	<dict>
 		<key>2BF5CCAC-0E83-43E5-881B-B477D2AF1742</key>
 		<dict>
+			<key>note</key>
+			<string>Launch iTerm2 without getting focus on itt</string>
 			<key>xpos</key>
 			<integer>255</integer>
 			<key>ypos</key>
@@ -203,6 +205,8 @@ Just type `iTermA` on alfred and it will:
 		</dict>
 		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
 		<dict>
+			<key>note</key>
+			<string>List all avaliable arrangements</string>
 			<key>xpos</key>
 			<integer>455</integer>
 			<key>ypos</key>
@@ -210,6 +214,8 @@ Just type `iTermA` on alfred and it will:
 		</dict>
 		<key>9C50B196-A0CB-4D77-97EF-F96F7105E429</key>
 		<dict>
+			<key>note</key>
+			<string>Just defines a keyword to start the workflow</string>
 			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
@@ -217,6 +223,8 @@ Just type `iTermA` on alfred and it will:
 		</dict>
 		<key>FCC71156-77A8-46B9-91DE-3D779B3EA489</key>
 		<dict>
+			<key>note</key>
+			<string>Restore the selected arrangement</string>
 			<key>xpos</key>
 			<integer>660</integer>
 			<key>ypos</key>
